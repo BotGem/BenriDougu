@@ -1,0 +1,47 @@
+*{
+    background-color: rgba(169, 79, 75, 1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.header{
+    width: 65%;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#link-container{
+    display: flex;
+}
+#link-button{
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+
+#regular-btn{
+    background-color: rgba(186, 90, 86, 1);
+    width: fit-content;
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-weight: normal;
+}
+
+svg{
+    background-color: rgba(186, 90, 86, 1);
+    width: 1rem;
+    height: 1rem;
+}
+
+hr{
+    border: 1px solid rgba(186, 90, 86, 1);
+    width: 75%;
+
+}
